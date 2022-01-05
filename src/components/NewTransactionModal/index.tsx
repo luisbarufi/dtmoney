@@ -84,7 +84,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }:NewTransactionMod
         <input 
           placeholder="Categoria"
           value={category}
-          onChange={event => setCategory(event.target.value)}          
+          onChange={event => setCategory(event.target.value)}
         />
 
         <button type="submit">
